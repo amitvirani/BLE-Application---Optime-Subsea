@@ -11,4 +11,4 @@ Some of the uses of iOS application are
 Application is MVC design complient which uses CoreBluetooth library to make connection with BLE chip attached with Arduino Uno microprocessor.
 It also uses variuos UI elemts such as stpper, sliders, picker, switches, slider to enhance the user experience.
 
-![alt text](BLE-Application-Optime-Subsea/Main Tab View.png)
+![alt text](https://github.com/amitvirani/BLE-Application-Optime-Subsea/Main Tab View.png)
