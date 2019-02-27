@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211E64F9218C0A9E00C1F447 /* CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211E64F8218C0A9E00C1F447 /* CoreDataClass.swift */; };
+		2157EFA9218A4E290046E6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFA8218A4E290046E6BF /* AppDelegate.swift */; };
+		2157EFAB218A4E290046E6BF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFAA218A4E290046E6BF /* TabBarViewController.swift */; };
+		2157EFAE218A4E290046E6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2157EFAC218A4E290046E6BF /* Main.storyboard */; };
+		2157EFB1218A4E290046E6BF /* Capstone_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFAF218A4E290046E6BF /* Capstone_App.xcdatamodeld */; };
+		2157EFB3218A4E2B0046E6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2157EFB2218A4E2B0046E6BF /* Assets.xcassets */; };
+		2157EFB6218A4E2B0046E6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2157EFB4218A4E2B0046E6BF /* LaunchScreen.storyboard */; };
+		2157EFBE218A57BA0046E6BF /* DeviceStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFBD218A57BA0046E6BF /* DeviceStatusViewController.swift */; };
+		2157EFC0218A57E90046E6BF /* RetriveDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFBF218A57E90046E6BF /* RetriveDataViewController.swift */; };
+		2157EFC2218A57F70046E6BF /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFC1218A57F70046E6BF /* FilesViewController.swift */; };
+		2157EFC4218A58060046E6BF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFC3218A58060046E6BF /* SettingsViewController.swift */; };
+		2157EFC7218A58D80046E6BF /* FileManagerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFC5218A58D80046E6BF /* FileManagerClass.swift */; };
+		2157EFC8218A58D80046E6BF /* BluetoothServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2157EFC6218A58D80046E6BF /* BluetoothServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		211E64F8218C0A9E00C1F447 /* CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataClass.swift; sourceTree = "<group>"; };
+		2157EFA5218A4E290046E6BF /* BLE Application - Optime Subsea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE Application - Optime Subsea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2157EFA8218A4E290046E6BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2157EFAA218A4E290046E6BF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2157EFAD218A4E290046E6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2157EFB0218A4E290046E6BF /* Capstone_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Capstone_App.xcdatamodel; sourceTree = "<group>"; };
+		2157EFB2218A4E2B0046E6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2157EFB5218A4E2B0046E6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2157EFB7218A4E2B0046E6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2157EFBD218A57BA0046E6BF /* DeviceStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatusViewController.swift; sourceTree = "<group>"; };
+		2157EFBF218A57E90046E6BF /* RetriveDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetriveDataViewController.swift; sourceTree = "<group>"; };
+		2157EFC1218A57F70046E6BF /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		2157EFC3218A58060046E6BF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2157EFC5218A58D80046E6BF /* FileManagerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerClass.swift; sourceTree = "<group>"; };
+		2157EFC6218A58D80046E6BF /* BluetoothServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2157EFA2218A4E290046E6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2157EF9C218A4E280046E6BF = {
+			isa = PBXGroup;
+			children = (
+				EBEF075E222636320066CD5F /* Suppoting Files */,
+				2157EFA7218A4E290046E6BF /* Capstone App */,
+				2157EFA6218A4E290046E6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2157EFA6218A4E290046E6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2157EFA5218A4E290046E6BF /* BLE Application - Optime Subsea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2157EFA7218A4E290046E6BF /* Capstone App */ = {
+			isa = PBXGroup;
+			children = (
+				EBEF075D222636020066CD5F /* Controller */,
+				EBEF075C222635F20066CD5F /* View */,
+				EBEF075B222635D80066CD5F /* Model */,
+			);
+			path = "Capstone App";
+			sourceTree = "<group>";
+		};
+		EBEF075B222635D80066CD5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2157EFC6218A58D80046E6BF /* BluetoothServices.swift */,
+				211E64F8218C0A9E00C1F447 /* CoreDataClass.swift */,
+				2157EFC5218A58D80046E6BF /* FileManagerClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBEF075C222635F20066CD5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2157EFAC218A4E290046E6BF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBEF075D222636020066CD5F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2157EFC1218A57F70046E6BF /* FilesViewController.swift */,
+				2157EFBF218A57E90046E6BF /* RetriveDataViewController.swift */,
+				2157EFAA218A4E290046E6BF /* TabBarViewController.swift */,
+				2157EFA8218A4E290046E6BF /* AppDelegate.swift */,
+				2157EFB4218A4E2B0046E6BF /* LaunchScreen.storyboard */,
+				2157EFBD218A57BA0046E6BF /* DeviceStatusViewController.swift */,
+				2157EFC3218A58060046E6BF /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBEF075E222636320066CD5F /* Suppoting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2157EFAF218A4E290046E6BF /* Capstone_App.xcdatamodeld */,
+				2157EFB2218A4E2B0046E6BF /* Assets.xcassets */,
+				2157EFB7218A4E2B0046E6BF /* Info.plist */,
+			);
+			path = "Suppoting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2157EFA4218A4E290046E6BF /* BLE Application - Optime Subsea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2157EFBA218A4E2B0046E6BF /* Build configuration list for PBXNativeTarget "BLE Application - Optime Subsea" */;
+			buildPhases = (
+				2157EFA1218A4E290046E6BF /* Sources */,
+				2157EFA2218A4E290046E6BF /* Frameworks */,
+				2157EFA3218A4E290046E6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLE Application - Optime Subsea";
+			productName = "Capstone App";
+			productReference = 2157EFA5218A4E290046E6BF /* BLE Application - Optime Subsea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2157EF9D218A4E280046E6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Amit Virani";
+				TargetAttributes = {
+					2157EFA4218A4E290046E6BF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2157EFA0218A4E280046E6BF /* Build configuration list for PBXProject "BLE Application - Optime Subsea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2157EF9C218A4E280046E6BF;
+			productRefGroup = 2157EFA6218A4E290046E6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2157EFA4218A4E290046E6BF /* BLE Application - Optime Subsea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2157EFA3218A4E290046E6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2157EFB6218A4E2B0046E6BF /* LaunchScreen.storyboard in Resources */,
+				2157EFB3218A4E2B0046E6BF /* Assets.xcassets in Resources */,
+				2157EFAE218A4E290046E6BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2157EFA1218A4E290046E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2157EFBE218A57BA0046E6BF /* DeviceStatusViewController.swift in Sources */,
+				211E64F9218C0A9E00C1F447 /* CoreDataClass.swift in Sources */,
+				2157EFAB218A4E290046E6BF /* TabBarViewController.swift in Sources */,
+				2157EFC7218A58D80046E6BF /* FileManagerClass.swift in Sources */,
+				2157EFC4218A58060046E6BF /* SettingsViewController.swift in Sources */,
+				2157EFC8218A58D80046E6BF /* BluetoothServices.swift in Sources */,
+				2157EFA9218A4E290046E6BF /* AppDelegate.swift in Sources */,
+				2157EFC0218A57E90046E6BF /* RetriveDataViewController.swift in Sources */,
+				2157EFC2218A57F70046E6BF /* FilesViewController.swift in Sources */,
+				2157EFB1218A4E290046E6BF /* Capstone_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2157EFAC218A4E290046E6BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2157EFAD218A4E290046E6BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2157EFB4218A4E2B0046E6BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2157EFB5218A4E2B0046E6BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2157EFB8218A4E2B0046E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2157EFB9218A4E2B0046E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2157EFBB218A4E2B0046E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y923NK49VN;
+				INFOPLIST_FILE = "$(SRCROOT)/Suppoting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.virani.BLEApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2157EFBC218A4E2B0046E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y923NK49VN;
+				INFOPLIST_FILE = "$(SRCROOT)/Suppoting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.virani.BLEApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2157EFA0218A4E280046E6BF /* Build configuration list for PBXProject "BLE Application - Optime Subsea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2157EFB8218A4E2B0046E6BF /* Debug */,
+				2157EFB9218A4E2B0046E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2157EFBA218A4E2B0046E6BF /* Build configuration list for PBXNativeTarget "BLE Application - Optime Subsea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2157EFBB218A4E2B0046E6BF /* Debug */,
+				2157EFBC218A4E2B0046E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2157EFAF218A4E290046E6BF /* Capstone_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2157EFB0218A4E290046E6BF /* Capstone_App.xcdatamodel */,
+			);
+			currentVersion = 2157EFB0218A4E290046E6BF /* Capstone_App.xcdatamodel */;
+			path = Capstone_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2157EF9D218A4E280046E6BF /* Project object */;
+}
