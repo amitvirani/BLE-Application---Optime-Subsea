@@ -81,6 +81,7 @@
 		EBEF075B222635D80066CD5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2157EFB4218A4E2B0046E6BF /* LaunchScreen.storyboard */,
 				2157EFC6218A58D80046E6BF /* BluetoothServices.swift */,
 				211E64F8218C0A9E00C1F447 /* CoreDataClass.swift */,
 				2157EFC5218A58D80046E6BF /* FileManagerClass.swift */,
@@ -103,7 +104,6 @@
 				2157EFBF218A57E90046E6BF /* RetriveDataViewController.swift */,
 				2157EFAA218A4E290046E6BF /* TabBarViewController.swift */,
 				2157EFA8218A4E290046E6BF /* AppDelegate.swift */,
-				2157EFB4218A4E2B0046E6BF /* LaunchScreen.storyboard */,
 				2157EFBD218A57BA0046E6BF /* DeviceStatusViewController.swift */,
 				2157EFC3218A58060046E6BF /* SettingsViewController.swift */,
 			);
